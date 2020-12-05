@@ -5,7 +5,7 @@ A startup called Sparkify wants to analyze the data they've been collecting on s
 ### Database Schema Design and Table Creation
 The star schema has one fact table (songplays) and four dimension tables (users, songs, artists, and time).
 
-![ER Diagram](ER_Diagram.jpg)
+![ER Diagram](ER_Diagram.png)
 
 The script, `create_tables.py`, connects to the Sparkify database, drops any tables if they exist, and creates the tables.
 
